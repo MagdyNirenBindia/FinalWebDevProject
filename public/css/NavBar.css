@@ -1,0 +1,110 @@
+/*CSS for navigation bar - applied to Create Event, Browse Event and View Event pages*/
+
+ul {
+             list-style-type: none;
+             padding: 5px 0px 5px 25px;
+             overflow: hidden;
+             margin: 0;
+             margin-right: 150px;
+        }
+      li {   margin-top:45px;
+             float: right;
+        }
+    li a {
+             display: inline;
+             color: white;
+             text-align: center;
+             font-size: 25px;
+             font-family: 'Athiti', sans-serif;
+             padding: 5px 20px 5px 20px;
+             text-decoration: none;
+             border-radius:12px;
+        }
+/* Change the link color to black on hover */
+        li a:hover {
+             background-color: rgba(252, 239, 220, 0.8);
+        }
+
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/marquees.jpg');
+}
+
+
+#navbar {
+    top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+/*CreateEvent page css only*/
+
+#form{
+    margin: 70px;
+    width: 400px;
+    height: 870px;
+    border-radius: 25px;
+    background-color: rgba(252, 239, 220, 0.7);
+    float: right;
+    margin-top: 150px;
+    margin-right: 400px;
+    padding: 10px 10px 10px 8px;
+}
+
+#text, #name, #date, #ticketCapacity, #endDate, #location, #category, #description{
+    width: 300px;
+    height:40px;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(255,255,255,0.8);
+    font-family: 'Nunito', sans-serif;
+}
+
+.name, .date, .numTickets, .endDate, .location, .category, .description {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+.post {
+    width: 150px;
+    height:50px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(53,227,174,1);
+    color: white;
+    margin-left:80px;
+}
+
+.post:hover {
+    background-color: rgba(252, 239, 220, 0.8);
+}
+
+#sidebar {
+    width: 25%;
+    height:100%;
+    position:fixed;
+    background-color: rgba(255,255,255,0.9);
+    left: 80px;
+    top:0;
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+}
+p {
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+}
+
+.description {
+    color: darkgrey;
+    font-size: 20px;
+    margin-top: 50px;
+}
